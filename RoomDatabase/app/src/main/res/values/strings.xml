@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Room Database</string>
+
+    <!-- Home -->
+    <string name="cd_fab_add_home">cd_fab_add_Home</string>
+
+    <!-- Add_Record -->
+    <string name="submit">Submit</string>
+    <string name="edit">Edit</string>
+
+</resources>
