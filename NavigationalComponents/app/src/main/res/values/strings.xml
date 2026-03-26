@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Navigational Components</string>
+
+    <!-- Menu Bottom Navigation -->
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+
+    <!-- Home -->
+    <string name="profile">Profile</string>
+
+    <!-- Settings -->
+    <string name="about">About This App</string>
+</resources>
