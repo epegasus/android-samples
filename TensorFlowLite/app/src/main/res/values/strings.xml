@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TensorFlow Lite (Sample)</string>
+    <string name="detect_object">Object Detection</string>
+</resources>
