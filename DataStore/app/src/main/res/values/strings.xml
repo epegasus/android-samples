@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DataStore</string>
+
+    <string name="datastore_world">DataStore World</string>
+    <string name="preferences_datastore">Preferences DataStore</string>
+    <string name="proto_datastore">Proto DataStore</string>
+    <string name="none">-</string>
+    <string name="save">Save</string>
+    <string name="full_name">Full Name</string>
+    <string name="scores">Scores</string>
+    <string name="result">Result</string>
+    <string name="result_pass">Result (pass)</string>
+    <string name="query">Query</string>
+    <string name="page_number">Page Number</string>
+    <string name="results_per_page">Results Per Page</string>
+    <string name="load">Load</string>
+</resources>
