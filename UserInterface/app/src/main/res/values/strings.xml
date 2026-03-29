@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">User Interface</string>
+    <string name="full_screen_note">Change full screen behavior</string>
+    <string name="message_note">Note: Dynamic Colors only works on android 11+</string>
+    <string name="message">I\'m Primary color (Material-3) via Dynamic Colors</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="apply">Apply</string>
+    <string name="choose_system_bar_type">Choose System Bar Type</string>
+</resources>
