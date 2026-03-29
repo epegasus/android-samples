@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Per-App Language Change</string>
+    <string name="choose_language">Choose Language</string>
+</resources>
