@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LifeCycleObservers</string>
+
+    <string name="lifecycle_observer">Lifecycle Observer</string>
+    <string name="default_observer">Default Observer</string>
+    <string name="lifecycle_event_observer">Lifecycle Event Observer</string>
+
+    <string name="a_text_1"><![CDATA[LifeCycleObserver (deprecated)]]></string>
+    <string name="b_text_1"><![CDATA[DefaultLifeCycleObserver]]></string>
+    <string name="c_text_1"><![CDATA[LifeCycleEventObserver]]></string>
+
+    <string name="dummy_screen">Dummy Screen</string>
+    <string name="go_back">Go Back</string>
+</resources>
