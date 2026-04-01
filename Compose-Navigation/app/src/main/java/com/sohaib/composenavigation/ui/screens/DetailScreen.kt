@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 @Composable
 fun DetailScreen(
     modifier: Modifier = Modifier,
+    message: String,
     navigateBack: () -> Unit
 ) {
     Column(
@@ -19,7 +20,9 @@ fun DetailScreen(
         verticalArrangement = Arrangement.SpaceEvenly,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text("Detail Screen")
+
+        Text("Detail Screen: $message")
+
         Button(onClick = navigateBack) {
             Text("Back")
         }

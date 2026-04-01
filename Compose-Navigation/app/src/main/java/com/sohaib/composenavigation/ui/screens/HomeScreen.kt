@@ -12,15 +12,17 @@ import androidx.compose.ui.Modifier
 @Composable
 fun HomeScreen(
     modifier: Modifier = Modifier,
-    goToDetail: () -> Unit
+    goToDetail: (argument: String) -> Unit
 ) {
     Column(
         modifier = modifier.fillMaxSize(),
         verticalArrangement = Arrangement.SpaceEvenly,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+
         Text("Home Screen")
-        Button(onClick = goToDetail) {
+
+        Button(onClick = { goToDetail("Hello Programmer") }) {
             Text("Go to Detail")
         }
     }

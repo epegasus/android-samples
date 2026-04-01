@@ -21,6 +21,7 @@ fun ManualNavigation(modifier: Modifier = Modifier) {
 
         "detail" -> DetailScreen(
             modifier,
+            message = "Hello Programmer",
             navigateBack = { currentScreen = "home" }
         )
     }
