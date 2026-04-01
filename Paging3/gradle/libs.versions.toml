@@ -1,0 +1,47 @@
+[versions]
+agp = "9.1.0"
+
+# Dependencies
+core-ktx = "1.18.0"
+appcompat = "1.7.1"
+material = "1.13.0"
+activity-ktx = "1.13.0"
+constraintlayout = "2.2.1"
+
+# Lifecycle / Activity (Flow + repeatOnLifecycle)
+lifecycle-viewmodel-ktx = "2.10.0"
+lifecycle-runtime-ktx = "2.10.0"
+
+# Retrofit
+retrofit = "3.0.0"
+converter-gson = "3.0.0"
+
+# Paging
+paging-runtime = "3.4.2"
+
+# Koin (dependency-injection)
+koin-android = "4.2.0"
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+
+[libraries]
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity-ktx" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+# Lifecycle / Activity
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+
+# Retrofit
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "converter-gson" }
+
+# Paging
+paging-runtime = { group = "androidx.paging", name = "paging-runtime", version.ref = "paging-runtime" }
+
+# Koin (dependency-injection)
+koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin-android" }

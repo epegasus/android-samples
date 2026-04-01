@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Paging3</string>
+    <string name="retry">Retry</string>
+    <string name="loading_quotes">Loading quotes…</string>
+    <string name="empty_quotes">No quotes to show.</string>
+    <string name="error_loading_quotes">Couldn\'t load quotes. Check your connection and try again.</string>
+</resources>
