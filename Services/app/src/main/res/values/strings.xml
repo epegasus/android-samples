@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Service</string>
+    <string name="service_description">Describe why are you using this service, so other apps will not kill this.</string>
+</resources>
