@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Practice">
+        <attr name="originalImage" format="integer" />
+        <attr name="maskImage" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="StarsView">
+        <attr name="maskImageOne" format="integer" />
+        <attr name="maskImageTwo" format="integer" />
+        <attr name="originalImageOne" format="integer" />
+        <attr name="originalImageTwo" format="integer" />
+    </declare-styleable>
+</resources>
